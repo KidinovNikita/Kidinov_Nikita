@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", serif;
+}
+.container {
+    width: 1519px;
+    min-height: 1700px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.click{
+    position: absolute;
+    height: 73px;
+    width: 240px;
+    left: 620px;
+    top: 301px;
+    border-radius: 32px;
+    cursor: pointer;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.photo{
+    position: absolute;
+    height: 25px;
+    width: 170px;
+    left: 664px;
+    top: 323px;
+    font-size: 17px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.04em;
+
+    color: #000000;
+
+}
+.btn{
+    position: absolute;
+    height: 115px;
+    width: 115px;
+    left: 74px;
+    top: 68px;
+    border-radius: 32px;
+
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.btn1{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 10px;
+    top: 453px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.btn2{
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 238px;
+    top: -200px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.btn3{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 230px;
+    left: 120px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.btn4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    left: 520px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.btn5{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -490px;
+    right: 570px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.btn6{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 335px;
+    top: -20px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.btn7{
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    left: 440px;
+    top: 25px;
+    border-radius: 25px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.btn8{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 236px;
+    right: 25px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+.btn9{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 70px;
+    top: 230px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 12px 32px 80px -20px rgba(0, 0, 0, 0.12);
+}
+span{
+    margin-left: 4px;
+}
+
+.user-card{
+    width: 160px;
+    height: 240px;
+    background: #3E3E3E;
+    border-radius: 12px;
+    padding: 10px;
+    margin-left: 42px;
+    margin-bottom: 34px;
+    position: relative;
+}
+.user-container{
+    display: flex;
+    top: 660px;
+    margin: 50px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    position: absolute;
+    background: black;
+    justify-content:left;
+}
+img {
+  width: 160px;
+    height: 210px;
+    border-radius: 5px;
+}
+
+.photo-card{
+    width: 153px;
+    height: 210px;
+    border-radius: 15px;
+    top: 10px;
+    left: 10px;
+    margin: 5px;
+}
+.remove{
+    width: 5px;
+    content: '&#128465';
+    cursor: pointer;
+}
+.remove-wraper {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 30px;
+    border-radius: 0 0 4px 4px;
+    background: #FFFFFF;
+    transition: .1s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user-card:hover .remove-wraper{
+    bottom: -20px;
+    transition: .2s ease-in;
+    z-index: 100;
+    left: -1px;
+}
+.remove-wraper svg {
+    cursor: pointer;
+}
+.card2 {
+   bottom: 16px;
+    left: 16px;
+    position: absolute;
+    display: table;
+    flex-direction: column;
+    font-family: "Space Grotesk",sans-serif;
+    width: 105px;
+    height: 17px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+}
+.card1 {
+    top: 16px;
+    left: 15px;
+    position: absolute;
+    align-items: flex-start;
+    width: 78px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    font-family: "Space Grotesk",sans-serif;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
